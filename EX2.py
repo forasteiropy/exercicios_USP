@@ -1,0 +1,7 @@
+segundos=input("Insira a quantidade de segundos para converter:")
+temp=float(segundos)
+dia=int(temp//86400)
+hora=int((temp%86400)//3600)
+minuto=int(((temp%86400)%3600)//60) 
+segundofinal=int((((temp%86400)%3600)%60))
+print(dia,"dias,",hora,"horas,",minuto,"minutos e",segundofinal,"segundos.")
